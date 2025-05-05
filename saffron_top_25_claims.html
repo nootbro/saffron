@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Therapeutic Outcomes - Saffron</title>
+    <style>
+        @font-face {
+            font-family: 'Neue Montreal';
+            src: url('PPNeueMontreal-Medium.woff2') format('woff2'),
+                 url('PPNeueMontreal-Medium.woff') format('woff'),
+                 url('PPNeueMontreal-Medium.ttf') format('truetype'),
+                 url('PPNeueMontreal-Medium.otf') format('opentype');
+            font-weight: 500;
+            font-style: normal;
+        }
+        
+        body {
+            font-family: 'Neue Montreal', sans-serif;
+            margin: 40px auto;
+            padding: 20px;
+            max-width: 1000px;
+            color: #333;
+            background-color: #ffffff;
+            line-height: 1.5;
+        }
+        
+        h1 {
+            font-size: 36px;
+            font-weight: 500;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        h2 {
+            font-size: 20px;
+            font-weight: normal;
+            color: #666;
+            margin-top: 0;
+            margin-bottom: 40px;
+        }
+        
+        .outcomes-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        .outcomes-table th {
+            padding: 20px;
+            text-align: left;
+            font-weight: 500;
+            color: #666;
+        }
+        
+        .outcomes-table thead tr {
+            border-bottom: 1px solid #ccc;
+        }
+        
+        .outcomes-table td {
+            padding: 20px;
+            text-align: left;
+        }
+        
+        .outcomes-table tr:nth-child(odd) {
+            background-color: #f9fafb;
+        }
+        
+        .outcomes-table tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+        
+        .navigation {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .nav-button {
+            margin: 5px;
+            padding: 8px 15px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: 'Neue Montreal', sans-serif;
+        }
+        
+        .benefits-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 40px;
+        }
+        
+        .benefits-table th {
+            padding: 16px 12px;
+            font-weight: 500;
+            color: #333;
+            border-bottom: 2px solid #ccc;
+        }
+        
+        .benefits-table th:first-child,
+        .benefits-table th:nth-child(2) {
+            text-align: left;
+        }
+        
+        .benefits-table th:nth-child(3) {
+            text-align: right;
+        }
+        
+        .benefits-table td {
+            padding: 16px 12px;
+            border-bottom: 1px solid #e0e0e0;
+            vertical-align: top;
+        }
+        
+        .benefits-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        /* First table styling */
+        .benefits-table tbody tr td:first-child {
+            font-weight: 500;
+            width: 25%;
+            text-align: left;
+        }
+        
+        .benefits-table tbody tr td:nth-child(2) {
+            font-weight: 500;
+            width: 25%;
+            text-align: left;
+        }
+        
+        .benefits-table tbody tr td:nth-child(3) {
+            width: 50%;
+            text-align: right;
+        }
+        
+        /* Second table styling - different column structure */
+        #proven-benefits .benefits-table td:first-child {
+            font-weight: 500;
+            width: 5%;
+            text-align: center;
+        }
+        
+        #proven-benefits .benefits-table td:nth-child(2) {
+            font-weight: 500;
+            width: 35%;
+            text-align: left;
+        }
+        
+        #proven-benefits .benefits-table td:nth-child(3) {
+            width: 60%;
+            text-align: left;
+        }
+        
+        .benefits-table td:nth-child(3) ul {
+            padding-left: 18px;
+            margin: 0;
+        }
+        
+        .benefits-table td:nth-child(3) li {
+            margin-bottom: 6px;
+            color: #555;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <img src="Notable-Logo_Black@2000px.png" alt="Notable Logo" style="max-width: 150px; margin-bottom: 30px;">
+    
+    <h1 style="font-size: 32px; margin-bottom: 5px;">Saffron Research Primer</h1>
+    
+    
+    <h2 style="font-size: 24px; margin-top: 10px; margin-bottom: 10px;">Therapeutic Outcomes</h2>
+    <h3 style="font-size: 18px; font-weight: normal; color: #666; margin-top: 0; margin-bottom: 30px;">Improvement percentage range by condition</h3>
+    
+    <table class="benefits-table">
+        <thead>
+            <tr>
+                <th>Health Metric</th>
+                <th>Clinical Trials<br>(Evidence)</th>
+                <th>Improvement</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Depression</td>
+                <td>9</td>
+                <td>50% to 58%</td>
+            </tr>
+            <tr>
+                <td>Anxiety</td>
+                <td>3</td>
+                <td>55% to 61%</td>
+            </tr>
+            <tr>
+                <td>ADHD</td>
+                <td>3</td>
+                <td>54% to 56%</td>
+            </tr>
+            <tr>
+                <td>OCD</td>
+                <td>1</td>
+                <td>45% to 48%</td>
+            </tr>
+            <tr>
+                <td>PMS / PMDD</td>
+                <td>2</td>
+                <td>50% to 76%</td>
+            </tr>
+            <tr>
+                <td>SSRI Sexual Dysfunction</td>
+                <td>2</td>
+                <td>50% to 60%</td>
+            </tr>
+            <tr>
+                <td>Sleep Quality</td>
+                <td>2</td>
+                <td>31% to 35%</td>
+            </tr>
+            <tr>
+                <td>Appetite Control / Cravings</td>
+                <td>2</td>
+                <td>55% to 78%</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    
+    <div id="clinical-trials">
+        <!-- Clinical trials content can be added here -->
+    </div>
+    
+    <div id="proven-benefits">
+        <h2 style="font-size: 24px; margin-top: 40px; margin-bottom: 10px;">Proven Metrics</h2>
+        <h3 style="font-size: 18px; font-weight: normal; color: #666; margin-top: 0; margin-bottom: 30px;">Top 25 Clinical Findings</h3>
+        <table class="benefits-table">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Metric</th>
+                <th>Key Findings/Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>As effective as Prozac (fluoxetine) for depression</td>
+                <td>
+                    <ul>
+                        <li>30mg saffron daily was statistically equivalent to 20mg fluoxetine</li>
+                        <li>Both groups showed similar improvements in depression scores</li>
+                        <li>No significant difference in HAM-D score improvement (F=0.13, p=0.71)</li>
+                        <li>Saffron produced fewer side effects than the pharmaceutical</li>
+                        <li>6-week randomized double-blind trial with 40 adults</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>As effective as imipramine (tricyclic antidepressant) for depression</td>
+                <td>
+                    <ul>
+                        <li>Saffron 30mg/day matched the efficacy of imipramine 100mg</li>
+                        <li>No significant difference in HAM-D score improvement (p=0.09)</li>
+                        <li>Imipramine caused more anticholinergic side effects (dry mouth, sedation)</li>
+                        <li>Saffron was better tolerated overall</li>
+                        <li>6-week pilot double-blind randomized trial with 30 outpatients</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Significantly outperformed placebo for depression</td>
+                <td>
+                    <ul>
+                        <li>After 6 weeks, saffron produced significantly greater improvement in depression scores</li>
+                        <li>HAM-D score reduction was statistically significant (F=18.89, p<0.001)</li>
+                        <li>No significant difference in side effects versus placebo</li>
+                        <li>Double-blind, randomized and placebo-controlled trial</li>
+                        <li>40 adult outpatients with major depressive disorder</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Non-inferior to fluoxetine for postpartum depression</td>
+                <td>
+                    <ul>
+                        <li>Saffron was non-inferior to fluoxetine for postpartum depression</li>
+                        <li>After 6 weeks, 40.6% of saffron group vs 50% of fluoxetine group achieved ≥50% reduction in depression score</li>
+                        <li>No significant difference between groups (p=0.61)</li>
+                        <li>Saffron produced similar symptom relief without additional adverse events</li>
+                        <li>Double-blind, randomized clinical trial with 68 women</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>As effective as sertraline for geriatric depression</td>
+                <td>
+                    <ul>
+                        <li>Saffron (60mg) was as effective as sertraline (100mg) in older patients</li>
+                        <li>Depression scores improved significantly over 6 weeks in both groups</li>
+                        <li>No difference between saffron and sertraline groups</li>
+                        <li>Highlights saffron's potential as an alternative antidepressant in the elderly</li>
+                        <li>Double-blind, randomized intervention study with 54 older adults</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Reduced snacking and promoted modest weight loss</td>
+                <td>
+                    <ul>
+                        <li>Saffron supplementation reduced between-meal snacking</li>
+                        <li>Greater decrease in body weight (–1.1kg vs –0.4kg in placebo, p<0.05)</li>
+                        <li>Significantly fewer snack cravings reported</li>
+                        <li>Attributed to saffron's mood-elevating effect reducing urge to snack</li>
+                        <li>8-week trial with 60 healthy overweight women</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Significantly improved sleep quality</td>
+                <td>
+                    <ul>
+                        <li>Sleep quality improved significantly with saffron vs placebo (p<0.05)</li>
+                        <li>Insomnia symptoms (ISQ scores) improved more in saffron groups</li>
+                        <li>Morning mood also improved more with saffron</li>
+                        <li>No differences between 14mg vs 28mg doses</li>
+                        <li>Even low-dose saffron enhanced sleep without adverse effects</li>
+                        <li>4-week study with 120 adults with poor sleep</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Improved cognitive performance in Alzheimer's disease</td>
+                <td>
+                    <ul>
+                        <li>Saffron produced significantly better cognitive outcomes than placebo</li>
+                        <li>Greater improvement in ADAS-Cog scores than placebo (F=4.12, p=0.04)</li>
+                        <li>Global functioning (CDR score) also improved more with saffron (p=0.04)</li>
+                        <li>No difference in adverse events vs placebo</li>
+                        <li>16-week, randomized and placebo-controlled trial with 46 Alzheimer's patients</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>As effective as donepezil for Alzheimer's with fewer side effects</td>
+                <td>
+                    <ul>
+                        <li>Saffron was as effective as donepezil in treating cognitive symptoms</li>
+                        <li>No significant difference in ADAS-Cog or CDR scores between groups</li>
+                        <li>Saffron caused fewer side effects - vomiting occurred more often with donepezil (p<0.05)</li>
+                        <li>Comparable efficacy with better tolerability</li>
+                        <li>22-week, multicenter, randomized, double-blind controlled trial with 54 patients</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Improved SSRI-induced sexual dysfunction in men</td>
+                <td>
+                    <ul>
+                        <li>Significantly improved erectile function and sexual satisfaction vs placebo</li>
+                        <li>60% achieved normal erectile function vs only 7% in placebo group (p=0.005)</li>
+                        <li>Intercourse satisfaction and overall IIEF total score also improved more with saffron (p<0.001)</li>
+                        <li>Side effect frequency did not differ from placebo</li>
+                        <li>4-week randomized double-blind placebo-controlled trial with 36 men</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Improved SSRI-induced sexual dysfunction in women</td>
+                <td>
+                    <ul>
+                        <li>Significant improvements in overall female sexual function vs placebo</li>
+                        <li>Higher total FSFI scores (female sexual function index) (p<0.001)</li>
+                        <li>Better arousal (p=0.028), lubrication (p=0.035), and reduced pain (p=0.016)</li>
+                        <li>No difference in side effect frequency observed</li>
+                        <li>4-week randomized double-blind placebo-controlled study with 38 women</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Alleviated opioid withdrawal symptoms</td>
+                <td>
+                    <ul>
+                        <li>Adding saffron significantly alleviated opioid withdrawal symptoms</li>
+                        <li>Lower withdrawal syndrome scores than methadone-only group (p<0.001)</li>
+                        <li>Saffron co-therapy helped ease withdrawal in patients tapering off opioids</li>
+                        <li>No adverse interactions noted</li>
+                        <li>Study with 44 patients on methadone maintenance therapy</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Reduced anxiety and depression in adolescents</td>
+                <td>
+                    <ul>
+                        <li>Self-reported total RCADS internalizing scores decreased by ~33% with saffron vs 17% with placebo (p=0.029)</li>
+                        <li>Improvements in separation anxiety (p=0.003), social phobia (p=0.023), and depressive symptoms (p=0.016)</li>
+                        <li>Well tolerated in adolescents</li>
+                        <li>8-week randomized, placebo-controlled study with 80 youths aged 12-16</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Greater improvement in depression symptoms in teens</td>
+                <td>
+                    <ul>
+                        <li>On the RCADS depression subscale, saffron group scores improved significantly more (mean -9.2 points) than placebo (-4.6) (p=0.016)</li>
+                        <li>Parents' ratings also trended better with saffron (40% vs 26% symptom reduction)</li>
+                        <li>Between-group differences were mostly noted in self-report</li>
+                        <li>8-week study with adolescents with elevated depression scores</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>As effective as fluvoxamine for OCD</td>
+                <td>
+                    <ul>
+                        <li>Saffron was as effective as fluvoxamine in reducing OCD symptoms</li>
+                        <li>Both groups showed significant improvement in Y-BOCS scores over 10 weeks</li>
+                        <li>No significant time×treatment interaction (p=0.52)</li>
+                        <li>Similar mean reductions in OCD severity</li>
+                        <li>Adverse event rates were comparable</li>
+                        <li>10-week trial with 50 adults with mild-to-moderate OCD</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Comparable to methylphenidate (Ritalin) for ADHD in children</td>
+                <td>
+                    <ul>
+                        <li>Saffron's efficacy was comparable to methylphenidate for ADHD symptoms</li>
+                        <li>Both parent and teacher ADHD Rating Scale scores improved similarly (p=0.70)</li>
+                        <li>Inattention and hyperactivity/impulsivity sub-scores decreased in parallel</li>
+                        <li>Side-effect frequency was similar</li>
+                        <li>6-week randomized double-blind pilot study with 54 children</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Enhanced stimulant therapy in adult ADHD</td>
+                <td>
+                    <ul>
+                        <li>Combination therapy outperformed stimulant alone</li>
+                        <li>When saffron was used alongside methylphenidate, ADHD symptom scores improved more</li>
+                        <li>Significantly greater reductions in ADHD rating scale scores with the combo</li>
+                        <li>Suggests a synergistic benefit for superior control of symptoms</li>
+                        <li>Two clinical trials (2021, 2022) with 50 adults with ADHD</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Improved sleep in ADHD patients</td>
+                <td>
+                    <ul>
+                        <li>Both saffron and stimulants increased total sleep hours</li>
+                        <li>Only saffron-treated groups saw significantly faster sleep onset</li>
+                        <li>Better nighttime sleep quality than those on stimulant alone</li>
+                        <li>Unique advantage for ADHD patients who often have sleep difficulties</li>
+                        <li>Findings from trials with adolescents and adults with ADHD</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Relieved premenstrual syndrome (PMS) symptoms</td>
+                <td>
+                    <ul>
+                        <li>Greater reduction in total Premenstrual Daily Symptom Report scores than placebo (p<0.001)</li>
+                        <li>Marked improvements in mood swings, pain, and cravings during luteal phases</li>
+                        <li>Demonstrated efficacy for PMS</li>
+                        <li>Two-cycle randomized, placebo-controlled trial with 50 women</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Improved PMS-related depression and mood</td>
+                <td>
+                    <ul>
+                        <li>Hamilton Depression Rating Scale scores in the late luteal phase were significantly lower with saffron than placebo (p<0.001)</li>
+                        <li>Far fewer PMS-related depressive symptoms</li>
+                        <li>Beneficial effect on emotional and mood disturbances associated with PMS</li>
+                        <li>Two-cycle study with 50 women with PMS</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>Effective for premenstrual dysphoric disorder (PMDD)</td>
+                <td>
+                    <ul>
+                        <li>Significantly reduced emotional and physical symptoms compared to placebo</li>
+                        <li>Improvements in mood, irritability, and cramps superior to placebo</li>
+                        <li>Minimal adverse effects</li>
+                        <li>Can safely help manage the debilitating symptoms of PMDD</li>
+                        <li>8-week study with 60 women with diagnosed PMDD</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>Comparable to Alzheimer's drugs in systematic review</td>
+                <td>
+                    <ul>
+                        <li>Clinical evidence indicates saffron's cognitive benefit in Alzheimer's is on par with approved medications</li>
+                        <li>Comparable efficacy to donepezil and memantine on cognitive outcomes</li>
+                        <li>More favorable side-effect profile</li>
+                        <li>30mg saffron daily achieved similar ADAS-cog improvements to 10mg donepezil</li>
+                        <li>Systematic review of multiple trials</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>Meta-analysis confirmed antidepressant efficacy</td>
+                <td>
+                    <ul>
+                        <li>Comprehensive meta-analysis concluded saffron is as effective as standard antidepressants</li>
+                        <li>Depression symptom reductions statistically equivalent to SSRIs</li>
+                        <li>Significantly outperformed placebo</li>
+                        <li>Fewer side effects than conventional drugs</li>
+                        <li>Analysis of 8 randomized trials with approximately 550 participants</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>Excellent safety profile across multiple trials</td>
+                <td>
+                    <ul>
+                        <li>Adverse events on saffron were generally mild and not significantly different from placebo</li>
+                        <li>Fewer drug-related side effects than standard medications</li>
+                        <li>Less sedation and dry mouth than imipramine</li>
+                        <li>Less vomiting than donepezil</li>
+                        <li>No serious adverse reactions reported even at doses up to 60mg/day</li>
+                        <li>Excellent tolerability in humans across multiple studies</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>Comparable to duloxetine for fibromyalgia</td>
+                <td>
+                    <ul>
+                        <li>Similar improvements in pain intensity (VAS scores) and functional impact (FIQ scores) as duloxetine</li>
+                        <li>No statistically significant difference between groups</li>
+                        <li>Depressive symptoms (HAM-D) also improved in both groups</li>
+                        <li>Well-tolerated with fewer side effects (less nausea) than duloxetine</li>
+                        <li>8-week randomized controlled trial with 61 adults with fibromyalgia</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    
+    <script>
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+</html>
